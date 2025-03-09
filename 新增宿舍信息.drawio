@@ -1,9 +1,71 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0">
   <diagram name="第 1 页" id="qyN0MelsS1kdwKrMU7TR">
-    <mxGraphModel>
+    <mxGraphModel dx="1166" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P_L0R7WuExNhiqo4PkYf-1" target="P_L0R7WuExNhiqo4PkYf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="P_L0R7WuExNhiqo4PkYf-3" target="P_L0R7WuExNhiqo4PkYf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-3" value="点击下载模板.xlsx文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="248" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P_L0R7WuExNhiqo4PkYf-4" target="P_L0R7WuExNhiqo4PkYf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-4" value="按照文件填写数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="347" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P_L0R7WuExNhiqo4PkYf-5" target="P_L0R7WuExNhiqo4PkYf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-5" value="点击导入，上传文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P_L0R7WuExNhiqo4PkYf-7" target="P_L0R7WuExNhiqo4PkYf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-20" value="允许" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P_L0R7WuExNhiqo4PkYf-16">
+          <mxGeometry x="-0.2908" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P_L0R7WuExNhiqo4PkYf-7" target="P_L0R7WuExNhiqo4PkYf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-21" value="不允许" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P_L0R7WuExNhiqo4PkYf-18">
+          <mxGeometry x="-0.5022" y="-1" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-7" value="是否勾选允许更新" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="533" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P_L0R7WuExNhiqo4PkYf-8" target="P_L0R7WuExNhiqo4PkYf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-8" value="插入和更新宿舍信息，并生成床位信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-9" value="结束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="320" y="750" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P_L0R7WuExNhiqo4PkYf-10" target="P_L0R7WuExNhiqo4PkYf-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_L0R7WuExNhiqo4PkYf-10" value="插入新的宿舍信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="543" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
